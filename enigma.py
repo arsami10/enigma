@@ -1,10 +1,6 @@
-#!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
-
-
-#Enigma Encoder - www.101computing.net/enigma-encoder/
+#Enigma Encoder
 
 # ----------------- Enigma Settings -----------------
 rotors = ("I","II","III")
@@ -186,7 +182,7 @@ def encode(plaintext):
   
   return ciphertext
 
-#Main Program Starts Here
+
 print("  ##### Enigma Encoder #####")
 print("")
 plaintext = input("Enter text to encode or decode:\n")
@@ -194,9 +190,4 @@ ciphertext = encode(plaintext)
 
 print("\nEncoded text: \n " + ciphertext)
 
-
-# In[ ]:
-
-
-ZTQW RYFLR YIGSYUO
 
